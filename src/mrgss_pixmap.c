@@ -60,6 +60,7 @@ mrb_value initialize(mrb_state *mrb, mrb_value self) {
             break;
         case 2:
             iwidth = mrb_int(mrb, first_param);
+            iheight = height;
             if (iwidth < 1 || iheight < 1) {
                 mrgss_raise(mrb, E_ARGUMENT_ERROR, "Pixmap size must be at least 1");
                 return mrb_nil_value();
