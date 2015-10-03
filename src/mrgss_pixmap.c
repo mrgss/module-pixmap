@@ -185,4 +185,5 @@ void mrgss_init_pixmap(mrb_state * mrb) {
     mrb_define_method(mrb, type, "height", height, MRB_ARGS_NONE());
     mrb_define_method(mrb, type, "get_pixel", get_pixel, MRB_ARGS_REQ(2));
     mrb_define_method(mrb, type, "set_pixel", set_pixel, MRB_ARGS_REQ(3));
+     MRB_SET_INSTANCE_TT(type, MRB_TT_DATA);
 }
