@@ -3,4 +3,4 @@
 ===========================
 
 
-> `This is an example gem which implements a C and Ruby extension.`
+> `Module Pixmap compiled and working.`
