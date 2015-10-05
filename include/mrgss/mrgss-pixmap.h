@@ -11,7 +11,7 @@
 #ifdef	__cplusplus
 extern "C" {
 #endif
-
+    void mrb_mrgss_pixmap_gem_init(mrb_state *mrb);
     typedef struct pixmap {
         mrb_int width;
         mrb_int height;
